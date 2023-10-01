@@ -1,4 +1,4 @@
-import head_shot from '../assets/head.jpg'
+import head_shot from '../../assets/head.jpg'
 import cx from 'classnames'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
