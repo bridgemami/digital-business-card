@@ -1,0 +1,68 @@
+.head_shot {
+    width: 100%;
+    border-radius: 2%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    margin: 0;
+    padding-top: .5em;
+}
+
+.position {
+    margin: 0;
+    padding: .25 0 .5 0;
+    color:#F3BF99;
+    font-weight: 400;
+}
+
+.portfolio {
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: .9rem;
+    cursor: pointer;
+}
+.portfolio:hover, .portfolio:focus {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.contact_container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+span {
+    padding-left: .25em;
+}
+
+.contact_box {
+    border-radius: 5%;
+    padding: .75em 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.email {
+    background-color: #fff;
+    color: #374151;
+}
+
+.linkedin {
+    background: #5093E2;
+    color: #FFF;
+}
+
+.contact_box:hover, .contact_box:focus {
+    font-size: 1.1rem;
+}
