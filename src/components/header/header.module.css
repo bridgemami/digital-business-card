@@ -1,12 +1,3 @@
-header {
-    background-color: #1A1B21;
-}
-
-.head_shot {
-    width: 100%;
-    border-radius: 2%;
-}
-
 .title {
     display: flex;
     justify-content: center;
@@ -55,9 +46,14 @@ span {
     display: flex;
     align-items: center;
     font-weight: 500;
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: center;
+}
+
+.border {
+    border: 1px solid #D1D5DB;
+
 }
 
 .email {
@@ -72,4 +68,40 @@ span {
 
 .contact_box:hover, .contact_box:focus {
     font-size: 1.1rem;
+}
+
+.head_shot {
+    width: 100%;
+    border-radius: 2%;
+}
+
+@media (min-width: 768px) {
+    header {
+        width: 47.5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .head_shot {
+        height: 22.5%;
+    }
+
+    .contact_container {
+        align-items: flex-end;
+        height: 5dvh;
+    }
+}
+
+@media (min-width: 992px) {
+    .head_shot {
+        width: 60%;
+        align-self: center;
+        padding-top: 1em;
+        border-radius: 10%;
+    }
+
+    .title {
+        padding: 1em 0;
+    }
 }

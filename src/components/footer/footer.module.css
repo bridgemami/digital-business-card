@@ -17,4 +17,39 @@
 
 .icon {
     height: 80%;
+    cursor: pointer;
+}
+
+.icon:hover, .icon:focus {
+    height: 100%;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        background: inherit;
+        padding: 0;
+        height: 10dvh;
+    }
+
+    .link {
+        align-items: center;
+    }
+
+    .icon {
+        height: 50%;
+    }
+}
+
+@media(min-width: 992px) {
+    .link {
+        align-items: flex-end;
+    }
+}
+
+@media(min-width: 1200px) {
+    .icon {
+        height: 100%;
+        align-self: flex-end;
+    }
 }

@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+    .app {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .body {
+        width: 47.5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .body {
+        padding:0;
+    }
+}

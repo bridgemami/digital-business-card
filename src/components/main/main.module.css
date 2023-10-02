@@ -1,6 +1,5 @@
 .container {
     padding: 0 1em;
-    background: #1A1B21;
 }
 
 .heading {
@@ -16,4 +15,19 @@
 
 .padding_bottom {
     padding-bottom: 1em;
+}
+
+@media(min-width:992px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        align-self: center;
+        height: 100%;
+    }
 }
