@@ -37,19 +37,8 @@
     }
 
     .icon {
-        height: 50%;
-    }
-}
-
-@media(min-width: 992px) {
-    .link {
-        align-items: flex-end;
-    }
-}
-
-@media(min-width: 1200px) {
-    .icon {
         height: 100%;
         align-self: flex-end;
     }
 }
+

@@ -72,7 +72,8 @@ span {
 
 .head_shot {
     width: 100%;
-    border-radius: 2%;
+    border-radius: 10%;
+    padding-top: 1em;
 }
 
 @media (min-width: 768px) {
@@ -98,7 +99,6 @@ span {
         width: 60%;
         align-self: center;
         padding-top: 1em;
-        border-radius: 10%;
     }
 
     .title {
