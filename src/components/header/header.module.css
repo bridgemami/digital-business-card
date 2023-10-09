@@ -73,7 +73,6 @@ span {
 .head_shot {
     width: 100%;
     border-radius: 10%;
-    padding-top: 1em;
 }
 
 @media (min-width: 768px) {
@@ -86,6 +85,7 @@ span {
     }
     .head_shot {
         height: 22.5%;
+        padding-top: 1em;
     }
 
     .contact_container {

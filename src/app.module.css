@@ -1,3 +1,7 @@
+main {
+padding: 0 1em;
+}
+
 @media (min-width: 768px) {
     .app {
         display: flex;
@@ -19,6 +23,11 @@
         justify-content: space-between;
         padding-bottom: 1em;
     }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -26,5 +35,9 @@
     .body {
         padding:0;
         /* height: 100%; */
+    }
+    .main {
+        align-self: center;
+        height: 100%;
     }
 }
